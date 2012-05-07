@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065593BB15577BA20046B27F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065593BA15577BA20046B27F /* UIKit.framework */; };
+		065593BD15577BA20046B27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065593BC15577BA20046B27F /* Foundation.framework */; };
+		065593C315577BA20046B27F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 065593C115577BA20046B27F /* InfoPlist.strings */; };
+		065593C515577BA20046B27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 065593C415577BA20046B27F /* main.m */; };
+		065593C915577BA20046B27F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 065593C815577BA20046B27F /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065593B615577BA20046B27F /* FindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		065593BA15577BA20046B27F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		065593BC15577BA20046B27F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		065593C015577BA20046B27F /* FindMe-Info.plist */ = {isa = PBXFileReference; path = "FindMe-Info.plist"; sourceTree = "<group>"; };
+		065593C215577BA20046B27F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		065593C415577BA20046B27F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		065593C615577BA20046B27F /* FindMe-Prefix.pch */ = {isa = PBXFileReference; path = "FindMe-Prefix.pch"; sourceTree = "<group>"; };
+		065593C715577BA20046B27F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		065593C815577BA20046B27F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065593B315577BA20046B27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065593BB15577BA20046B27F /* UIKit.framework in Frameworks */,
+				065593BD15577BA20046B27F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065593AB15577BA20046B27F = {
+			isa = PBXGroup;
+			children = (
+				065593BE15577BA20046B27F /* FindMe */,
+				065593B915577BA20046B27F /* Frameworks */,
+				065593B715577BA20046B27F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065593B715577BA20046B27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065593B615577BA20046B27F /* FindMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065593B915577BA20046B27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				065593BA15577BA20046B27F /* UIKit.framework */,
+				065593BC15577BA20046B27F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		065593BE15577BA20046B27F /* FindMe */ = {
+			isa = PBXGroup;
+			children = (
+				065593C715577BA20046B27F /* AppDelegate.h */,
+				065593C815577BA20046B27F /* AppDelegate.m */,
+				065593BF15577BA20046B27F /* Supporting Files */,
+			);
+			path = FindMe;
+			sourceTree = "<group>";
+		};
+		065593BF15577BA20046B27F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				065593C015577BA20046B27F /* FindMe-Info.plist */,
+				065593C115577BA20046B27F /* InfoPlist.strings */,
+				065593C415577BA20046B27F /* main.m */,
+				065593C615577BA20046B27F /* FindMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065593B515577BA20046B27F /* FindMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065593CC15577BA20046B27F /* Build configuration list for PBXNativeTarget "FindMe" */;
+			buildPhases = (
+				065593B215577BA20046B27F /* Sources */,
+				065593B315577BA20046B27F /* Frameworks */,
+				065593B415577BA20046B27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMe;
+			productName = FindMe;
+			productReference = 065593B615577BA20046B27F /* FindMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065593AD15577BA20046B27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 065593B015577BA20046B27F /* Build configuration list for PBXProject "FindMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 065593AB15577BA20046B27F;
+			productRefGroup = 065593B715577BA20046B27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065593B515577BA20046B27F /* FindMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065593B415577BA20046B27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065593C315577BA20046B27F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065593B215577BA20046B27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065593C515577BA20046B27F /* main.m in Sources */,
+				065593C915577BA20046B27F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		065593C115577BA20046B27F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065593C215577BA20046B27F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065593CA15577BA20046B27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		065593CB15577BA20046B27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065593CD15577BA20046B27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindMe/FindMe-Prefix.pch";
+				INFOPLIST_FILE = "FindMe/FindMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		065593CE15577BA20046B27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindMe/FindMe-Prefix.pch";
+				INFOPLIST_FILE = "FindMe/FindMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065593B015577BA20046B27F /* Build configuration list for PBXProject "FindMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065593CA15577BA20046B27F /* Debug */,
+				065593CB15577BA20046B27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065593CC15577BA20046B27F /* Build configuration list for PBXNativeTarget "FindMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065593CD15577BA20046B27F /* Debug */,
+				065593CE15577BA20046B27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065593AD15577BA20046B27F /* Project object */;
+}
